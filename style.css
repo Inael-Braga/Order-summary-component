@@ -36,9 +36,9 @@ p{
     margin: 52px 0 0 0;
 
 }
-.imagem{
+.imagem img{
     border-radius: 16px 16px 0 0;
-    background-image: url(/images/illustration-hero.svg);
+    /* background-image: url(/images/illustration-hero.svg); */
     height: 220px;
 }
 

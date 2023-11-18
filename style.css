@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 16px;
+}
+.container{
+    height: 696px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 16px;
+    text-align: center;
+    
+
+
+}
+.conteudo{
+    padding: 0 45px 0 45px;
+    margin: 52px 0 0 0;
+
+}
+.imagem{
+    border-radius: 16px 16px 0 0;
+    background-image: url(/images/illustration-hero.svg);
+    height: 220px;
+}
+
+p, h1, h2, h3, span{
+    color:hsl(223, 47%, 23%); ;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cont1 p{
+    font-weight: 500;
+    padding-top: 20px;
+}
+.cont1 h2{
+    font-weight: 900;
+}
+.plan{
+    height: 98px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 24px 0 24px;
+    margin: 22px 0 20px 0;
+    border-radius: 16px;
+
+}
+a:hover{
+    text-decoration: none;
+    color:  hsla(245, 75%, 52%, 0.4);
+}
+a:visited{
+    color: hsl(245, 75%, 52%);
+}
+.planinside{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.plan b{
+    font-weight: 900;
+}
+.plan a{
+    font-weight: 900;
+}
+.btn{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pagar{
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border-style: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: rgba(38, 0, 255, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    font-weight: 900;
+    border-radius: 16px;
+}
+.cancelar{
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+    border-style: none;
+    background: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+/* BOTÃO HOVER */
+.btn .pagar:hover{
+    background-color: hsla(245, 75%, 52%, 0.4);
+    cursor: pointer;
+}
+.btn .cancelar:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+        padding: 24px;
+    }
+    .container{
+        box-shadow: (38, 0, 255, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    }
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .cont1 p{
+        padding: 0 50px 0 50px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .conteudo{
+        padding: 0 24px 0 24px;
+        /* margin: 52px 0 0 0; */
+    
+    }
+}
